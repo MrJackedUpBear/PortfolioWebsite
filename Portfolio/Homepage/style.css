@@ -17,17 +17,23 @@
 
 .button{
     font-size: 50px;
+    background-color: lightgray;
+    float:right;
 }
 
-.full{
-    background-color: white;
+.button:hover{
+    background-color:darkgray;
+}
+
+body{
+    background-color:lightgray;
 }
 
 .header{
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(196, 196, 196);
-    color:rgb(255, 135, 221);
+    background-color:darkslategray;
+    color:aquamarine;
     text-align: center;
     width: 25%;
 }
@@ -43,7 +49,7 @@
     text-align: left;
 }
 .title h1{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .paragraph{
@@ -54,8 +60,24 @@
 }
 
 .paragraph p1{
-    font-size: 14px;
+    font-size: 20px;
     word-wrap: normal;
+}
+
+.purpose{
+    background-color: burlywood;
+}
+
+.about{
+    background-color:deepskyblue;
+}
+
+.skills{
+    background-color:gold;
+}
+
+.projects{
+    background-color:mediumspringgreen;
 }
 
 .footer{
@@ -65,5 +87,5 @@
 }
 
 .footer p1{
-    font-size: 10px;
+    font-size: 15px;
 }
