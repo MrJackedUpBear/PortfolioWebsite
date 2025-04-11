@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - About Information</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://servernameportfolio.jumpingcrab.com\">← Homepage</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Blog\">Blog</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Contact\">Contact</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\">Homepage</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Projects\">Projects</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Resume\">Resume</a>
+    </div>
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="header">
+        <h1>About Information</h1>
+    </div>
+
+    <body>
+        <div class="general">
+            <h1>General Information</h1>
+            <p1>
+                Hey! Welcome to my site! My name is Jonathan Taylor, and I am a Junior in college pursuing a bachelor's degree in computer science at Pittsburg State University.
+                I am 19 years old and have always been interested in computers. I have recently started my adventure in developing software. 
+                I only have a few projects, which I will discuss more in my projects tab, but I have thouroughly enjoyed the time I have spent developing software.
+                My main goal is to work with many different teams to learn more about development and meeting deadlines. 
+                Outside of my work aspirations, I plan on working on different open source projects including some I will develop and others
+                that I can assist with.
+            </p1>
+        </div>
+
+        <div class="job">
+            <h1>Current Work</h1>
+            <p1>
+                Currently, I am working in the IT department at the college I am going to, Pittsburg State University. I am a part of the help desk and I have also helped 
+                test the quality of software developed by the development team at Pitt State. My job includes helping students gain access to their accounts, updating client's 
+                information, and general help.
+            </p1>
+        </div>
+
+        <div class="current">
+            <h1>Current Goals and Focus</h1>
+            <p1>
+                Currently, I am working on developing different projects to showcase and improve my software development ability. I hope to land an internship soon, so I can gain some 
+                experience with software development in the workforce and learn how to work with a team of software developers.
+            </p1>
+        </div>
+
+        <div class="schooling">
+            <h1>Schooling</h1>
+            <p1>
+                <ul>
+                    <li>Graduated From Chanute High School with a 3.8 GPA in Spring 2023</li>
+                    <li>Will Graduate From Pittsburg State University With a Bachelor's in Computer Science in Spring 2026</li>
+                </ul>
+            </p1>
+        </div>
+
+        <div class="future">
+            <h1>Future Endeavors</h1>
+            <p1>
+                My main goals for my career involve working for different types of software companies, so I can learn the best ways to develop software in different situations. 
+                Eventually, I will settle down with a job.
+            </p1>
+        </div>
+    </body>
+</html>

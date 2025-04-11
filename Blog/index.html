@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - Blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://servernameportfolio.jumpingcrab.com\">← Homepage</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Blog\">Blog</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Contact\">Contact</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\">Homepage</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Projects\">Projects</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Resume\">Resume</a>
+    </div>
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="header">
+        <h1>Blog</h1>
+    </div>
+
+    <body>
+        <div class="unavailable">
+            <h1>Currently Unavailable. Come Back Later.</h1>
+        </div>
+    </body>
+</html>

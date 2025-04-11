@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - Music Controller Main Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://servernameportfolio.jumpingcrab.com\">← Homepage</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+            <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Blog\">Blog</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Contact\">Contact</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\">Homepage</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Projects\">Projects</a>
+        	<a href="https://servernameportfolio.jumpingcrab.com\Resume\">Resume</a>
+    </div>
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="header">
+        <h1>Music Controller Project</h1>
+    </div>
+
+<body>
+    <h2>General Project Information</h2>
+    <p1>Hello and welcome to the Music Controller Main Page! The source code is at the bottom if that is why you're here. Otherwise, I will be describing the project
+        I have created, the purpose behind it, and the plans I have for this software. 
+        <ol>
+            <li>Currently, this code is kind of a jumbled mess, which I will attend to in my next iteration. This project's main fuction is to allow multiple users to log in
+                to their music accounts to play music. The ideal setup for this software is to set it up in a general area with a speaker system, so that the users can go log
+                in to their account and play music. The user is allowed to create an account, log in to their account, and play music from a music application of their choice.
+                They can save their logins to a specified user in FireFox. Currently, this is only available with FireFox, so the user will have to create user profiles in
+                FireFox that will save the logins for the users. The code is also very beta since the passwords, usernames, and security questions are not encrypted at all.
+
+            </li>
+            <li>
+                This project was mainly created for personal use, so that I could have a whole music system set up in my house that allows new people to log in and play music, 
+                without having to worry about logging in to their account each time. 
+            </li>
+            <li>
+                Eventually, this project will feature a settings page to control where the music is played, the volume of the music, different queues for different users,
+                and many other features. I will also be working with an API to provide a more cohesive music experience for the users. The main focus for the next iteration is
+                security since currently this application offers no encryption for the user's input. I will focus on hashing the passwords, usernames, and security questions
+                to ensure this is more secure for the end user. After completing the above, the main concept of the project will be complete, but I may make more tweaks later on.
+            </li>
+        </ol>
+    </p1>
+    <p1>Here are some screenshots of all the pages available in this application.
+        <br>
+        <img src="Screenshots/MusicControllerLandingPage.png" alt="Music Controller Main Page" style="width:500px;height:300px">Music Controller Main Page
+        <img src="Screenshots/MusicControllerUsersPage.png" alt="Music Controller Users Page" style="width:500px;height:300px">Music Controller Users Page
+        <br>
+        <img src="Screenshots/MusicControllerLoginPage.png" alt="Music Controller Login Page" style="width:500px;height:300px">Music Controller Login Page
+        <img src="Screenshots/MusicControllerAccountCreationPage.png" alt="Music Controller Create Account Page" style="width:500px;height:300px">Music Controller Create Account Page
+        <br>
+        <img src="Screenshots/MusicControllerUsersPageAfterAccountCreation.png" alt="Music Controller Users Page After Account Creation" style="width:500px;height:300px">Music Controller Users Page After Account Creation
+        <img src="Screenshots/MusicControllerMusicPage.png" alt="Music Controller Music Page" style="width:500px;height:300px">Music Controller Music Page
+    </p1>
+    <h2>Source Code</h2>
+    <p1>Here is what you've all been waiting for. The source code. Here ya go.
+        <a href="https://github.com/MrJackedUpBear/Music-Controller">Music Controller Github Page</a>
+    </p1>
+</body>

@@ -1,0 +1,91 @@
+.navbar a{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(187, 184, 213);
+    padding: 10px 50px;
+    text-decoration: none;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 135, 221);
+    color: black;
+}
+
+.button{
+    font-size: 50px;
+    background-color: lightgray;
+    float:right;
+}
+
+.button:hover{
+    background-color:darkgray;
+}
+
+body{
+    background-color:lightgray;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:darkslategray;
+    color:aquamarine;
+    text-align: center;
+    width: 25%;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+.title h1{
+    font-size: 30px;
+}
+
+.paragraph{
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+
+.paragraph p1{
+    font-size: 20px;
+    word-wrap: normal;
+}
+
+.purpose{
+    background-color: burlywood;
+}
+
+.about{
+    background-color:deepskyblue;
+}
+
+.skills{
+    background-color:gold;
+}
+
+.projects{
+    background-color:mediumspringgreen;
+}
+
+.footer{
+    background-color: rgb(196, 196, 196);
+    color:rgb(0, 0, 0);
+    text-align: left;
+}
+
+.footer p1{
+    font-size: 15px;
+}
