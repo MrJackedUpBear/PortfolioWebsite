@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - DTT Quiz Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://portfolio.servername.win\Projects\">← Projects</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://portfolio.servername.win\Blog\">Blog</a>
+        	<a href="https://portfolio.servername.win\Contact\">Contact</a>
+        	<a href="https://portfolio.servername.win\">Homepage</a>
+        	<a href="https://portfolio.servername.win\Projects\">Projects</a>
+        	<a href="https://portfolio.servername.win\Resume\">Resume</a>
+    </div>
+
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="header">
+        <h1>DTT Quiz Application</h1>
+    </div>
+
+<body>
+    <h1>General Information</h1>
+
+    <b1>
+        This is the DTT Quiz Application. It essentially allows you to add questions to a database and take quizzes in the discrete trial testing format.
+        Below are some screenshots of the website that is actually running on my computer. This was designed and developed for my brother
+        since he is in his Master's degree for Pschology, and he requested that I make this so he can study for his final test. This comes with a login
+        system that allows the user to get an email auth code to log in, or the user can enter a password to log in. The user can change their settings,
+        view the questions in the database, and take a randomized quiz.
+    </b1>
+
+    <br>
+    <br>
+
+    <img src="Screenshots/DTT Quiz App Landing Page.png" alt="Landing Page" style="width:100%;height:auto; max-width:75%;">
+    <img src="Screenshots/DTT Quiz App Main Page.png" alt="Main Page" style="width:100%;height:auto; max-width:75%;">
+    <img src="Screenshots/DTT Quiz App Questions Page.png" alt="Questions Page" style="width:100%;height:auto; max-width:75%;">
+    <img src="Screenshots/DTT Quiz App Quiz Page.png" alt="Quiz Page" style="width:100%;height:auto; max-width:75%;">
+    <img src="Screenshots/DTT Quiz App Settings Page.png" alt="Settings Page" style="width:100%;height:auto; max-width:75%;">
+
+    <br>
+    <br>
+
+    <b1>
+        Here is the link to the source code: <a href="https://github.com/MrJackedUpBear/DTT_APP">DTT Application</a>. Let me know if you have any other questions.
+    </b1>
+</body>

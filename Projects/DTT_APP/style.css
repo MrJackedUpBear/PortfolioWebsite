@@ -1,0 +1,64 @@
+.buttons a{
+    text-decoration: none;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+    font-size: 25px;
+    background-color: lightgray;
+    color: black;
+    float:left;
+}
+
+.buttons a:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttons button{
+    text-align:right;
+    font-size: 50px;
+    float: right;
+    background-color: lightgray;
+}
+
+.buttons button:hover{
+    background-color:darkgray;
+}
+
+.navbar a{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(187, 184, 213);
+    padding: 10px 50px;
+    text-decoration: none;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 135, 221);
+    color: black;
+}
+
+.header{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.info{
+    text-align:center;
+    font-size:15px;
+    background-color:aqua;
+    width: 100%;
+}
