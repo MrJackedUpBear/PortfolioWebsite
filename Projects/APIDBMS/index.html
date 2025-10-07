@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - Music Controller Main Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://portfolio.servername.win\Projects\">← Projects</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://portfolio.servername.win\Blog\">Blog</a>
+        	<a href="https://portfolio.servername.win\Contact\">Contact</a>
+        	<a href="https://portfolio.servername.win\">Homepage</a>
+        	<a href="https://portfolio.servername.win\Projects\">Projects</a>
+        	<a href="https://portfolio.servername.win\Resume\">Resume</a>
+    </div>
+
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="header">
+        <h1>API DBMS</h1>
+    </div>
+
+<body>
+    <p1>Here are some screenshots of all the pages available in this application.
+        <br>
+        <img src="API DBMS Screenshots/LoginScreen.png" alt="API DBMS Login Screen" style="width:100%;height:300px; max-width: 800px;">API DBMS Login Screen
+        <img src="API DBMS Screenshots/MainPage.png" alt="API DBMS Main Page" style="width:100%;height:300px; max-width: 800px;">API DBMS Main Page
+        <br>
+        <img src="API DBMS Screenshots/SearchingScreen.png" alt="API DBMS Search Screen" style="width:100%;height:300px; max-width: 800px;">API DBMS Search Screen
+        <img src="API DBMS Screenshots/AddToTableScreen.png" alt="API DBMS Add To Table Screen" style="width:100%;height:300px; max-width: 800px;">API DBMS Add To Table Screen
+        <br>
+        <img src="API DBMS Screenshots/DeleteConfirmationScreen.png" alt="API DBMS Delete Confirmation" style="width:100%;height:300px; max-width: 800px;">Delete Confirmation
+        <img src="API DBMS Screenshots/CreateUserScreen.png" alt="API DBMS User Creation Screen" style="width:100%;height:300px; max-width: 800px;">API DBMS User Creation Screen
+    </p1>
+    <h2>Source Code</h2>
+    <p1>Here is what you've all been waiting for. The source code. Here ya go.
+        <a href="https://github.com/MrJackedUpBear/BarcodeProject">API DBMS Source Code</a>
+    </p1>
+</body>

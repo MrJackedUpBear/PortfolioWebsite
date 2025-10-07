@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Jonathan Taylor's Portfolio - Mainpage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <div class="buttons">
+        <button onclick="toggleNavBar()" class="navbutton">≡</button>
+        <a href="https://portfolio.servername.win\Projects\">← Projects</a>
+    </div>
+
+    <div class="navbar" style="display:none">
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://portfolio.servername.win\Blog\">Blog</a>
+        	<a href="https://portfolio.servername.win\Contact\">Contact</a>
+        	<a href="https://portfolio.servername.win\">Homepage</a>
+        	<a href="https://portfolio.servername.win\Projects\">Projects</a>
+        	<a href="https://portfolio.servername.win\Resume\">Resume</a>
+    </div>
+
+    
+    <div class="header">
+        <h1>Portfolio Website</h1>
+    </div>
+
+    <script>
+        function toggleNavBar() {
+            var x = document.getElementsByClassName("navbar")[0];
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <body>
+        <h2>General Information</h2>
+        <p1>This website was created to display all of my personal information to the internet. In all seriousness, I created this website to show off some of the projects I have
+            been working on, as well as my resume, and about information. This website has been really fun working with, and hopefully I can make it look even better.
+            While I mainly enjoy working on backend environments, I did enjoy working on this webiste. I hope you enjoy this website and find it useful. Please let me know
+            if you have any questions. Thank you again!
+        </p1>
+        <h2>Source Code</h2>
+        <p1><a href="https://github.com/MrJackedUpBear/PortfolioWebsite">Portfolio Website Source Code</a></p1>
+    </body>

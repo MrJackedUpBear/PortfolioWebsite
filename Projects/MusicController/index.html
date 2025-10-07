@@ -8,17 +8,18 @@
 
     <div class="buttons">
         <button onclick="toggleNavBar()" class="navbutton">≡</button>
-        <a href="https://servernameportfolio.jumpingcrab.com\">← Homepage</a>
+        <a href="https://portfolio.servername.win\Projects\">← Projects</a>
     </div>
 
     <div class="navbar" style="display:none">
-            <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
-        	<a href="https://servernameportfolio.jumpingcrab.com\Blog\">Blog</a>
-        	<a href="https://servernameportfolio.jumpingcrab.com\Contact\">Contact</a>
-        	<a href="https://servernameportfolio.jumpingcrab.com\">Homepage</a>
-        	<a href="https://servernameportfolio.jumpingcrab.com\Projects\">Projects</a>
-        	<a href="https://servernameportfolio.jumpingcrab.com\Resume\">Resume</a>
+        <a href="https://servernameportfolio.jumpingcrab.com\About\">About Me</a>
+        	<a href="https://portfolio.servername.win\Blog\">Blog</a>
+        	<a href="https://portfolio.servername.win\Contact\">Contact</a>
+        	<a href="https://portfolio.servername.win\">Homepage</a>
+        	<a href="https://portfolio.servername.win\Projects\">Projects</a>
+        	<a href="https://portfolio.servername.win\Resume\">Resume</a>
     </div>
+
 
     <script>
         function toggleNavBar() {
@@ -40,11 +41,11 @@
     <p1>Hello and welcome to the Music Controller Main Page! The source code is at the bottom if that is why you're here. Otherwise, I will be describing the project
         I have created, the purpose behind it, and the plans I have for this software. 
         <ol>
-            <li>Currently, this code is kind of a jumbled mess, which I will attend to in my next iteration. This project's main fuction is to allow multiple users to log in
+            <li>This project's main fuction is to allow multiple users to log in
                 to their music accounts to play music. The ideal setup for this software is to set it up in a general area with a speaker system, so that the users can go log
                 in to their account and play music. The user is allowed to create an account, log in to their account, and play music from a music application of their choice.
-                They can save their logins to a specified user in FireFox. Currently, this is only available with FireFox, so the user will have to create user profiles in
-                FireFox that will save the logins for the users. The code is also very beta since the passwords, usernames, and security questions are not encrypted at all.
+                There is a system in place that allows the user to save their credentials to a text file, so that they can log in with their credentials later on. The passwords
+                are encrypted. The main login page for the user also hashes the password, so that I am not storing plaintext passwords.
 
             </li>
             <li>
@@ -53,22 +54,21 @@
             </li>
             <li>
                 Eventually, this project will feature a settings page to control where the music is played, the volume of the music, different queues for different users,
-                and many other features. I will also be working with an API to provide a more cohesive music experience for the users. The main focus for the next iteration is
-                security since currently this application offers no encryption for the user's input. I will focus on hashing the passwords, usernames, and security questions
-                to ensure this is more secure for the end user. After completing the above, the main concept of the project will be complete, but I may make more tweaks later on.
+                and many other features. I will also be working with an API to provide a more cohesive music experience for the users.
+                After completing the above, the main concept of the project will be complete, but I may make more tweaks later on.
             </li>
         </ol>
     </p1>
     <p1>Here are some screenshots of all the pages available in this application.
         <br>
-        <img src="Screenshots/MusicControllerLandingPage.png" alt="Music Controller Main Page" style="width:500px;height:300px">Music Controller Main Page
-        <img src="Screenshots/MusicControllerUsersPage.png" alt="Music Controller Users Page" style="width:500px;height:300px">Music Controller Users Page
+        <img src="NewMusicControllerScreenshots/MusicControllerLandingPage.png" alt="Music Controller Main Page" style="width:100%;height:300px; max-width: 800px;">Music Controller Main Page
+        <img src="NewMusicControllerScreenshots/MusicControllerUsersPage.png" alt="Music Controller Users Page" style="width:100%;height:300px; max-width: 800px;">Music Controller Users Page
         <br>
-        <img src="Screenshots/MusicControllerLoginPage.png" alt="Music Controller Login Page" style="width:500px;height:300px">Music Controller Login Page
-        <img src="Screenshots/MusicControllerAccountCreationPage.png" alt="Music Controller Create Account Page" style="width:500px;height:300px">Music Controller Create Account Page
+        <img src="NewMusicControllerScreenshots/MusicControllerLoginPage.png" alt="Music Controller Login Page" style="width:100%;height:300px; max-width: 800px;">Music Controller Login Page
+        <img src="NewMusicControllerScreenshots/MusicControllerAccountCreationPage.png" alt="Music Controller Create Account Page" style="width:100%;height:300px; max-width: 800px;">Music Controller Create Account Page
         <br>
-        <img src="Screenshots/MusicControllerUsersPageAfterAccountCreation.png" alt="Music Controller Users Page After Account Creation" style="width:500px;height:300px">Music Controller Users Page After Account Creation
-        <img src="Screenshots/MusicControllerMusicPage.png" alt="Music Controller Music Page" style="width:500px;height:300px">Music Controller Music Page
+        <img src="Screenshots/MusicControllerUsersPageAfterAccountCreation.png" alt="Music Controller Users Page After Account Creation" style="width:100%;height:300px; max-width: 800px;">Music Controller Users Page After Account Creation
+        <img src="NewMusicControllerScreenshots/MusicControllerMusicPage.png" alt="Music Controller Music Page" style="width:100%;height:300px; max-width: 800px;">Music Controller Music Page
     </p1>
     <h2>Source Code</h2>
     <p1>Here is what you've all been waiting for. The source code. Here ya go.
