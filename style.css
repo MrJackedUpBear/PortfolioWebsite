@@ -64,22 +64,6 @@ body{
     word-wrap: normal;
 }
 
-.purpose{
-    background-color: burlywood;
-}
-
-.about{
-    background-color:deepskyblue;
-}
-
-.skills{
-    background-color:gold;
-}
-
-.projects{
-    background-color:mediumspringgreen;
-}
-
 .footer{
     background-color: rgb(196, 196, 196);
     color:rgb(0, 0, 0);
