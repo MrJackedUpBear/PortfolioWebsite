@@ -1,75 +1,45 @@
-.navbar a{
-    text-align: center;
-    display: block;
-    color: white;
-    background-color: rgb(187, 184, 213);
-    padding: 10px 50px;
-    text-decoration: none;
-    width: 10%;
-    margin-left: auto;
-    margin-right: auto;
+.left-side{
+	background-color: #9BDDFF;
+	width: 70%; 
+	height: 100%;
+	float: left;
+	padding: 20px;
 }
 
-.navbar a:hover{
-    background-color: rgb(255, 135, 221);
-    color: black;
-}
-
-.button{
-    font-size: 50px;
-    background-color: lightgray;
-    float:right;
-}
-
-.button:hover{
-    background-color:darkgray;
-}
-
-body{
-    background-color:lightgray;
-}
-
-.header{
-    margin-left: auto;
-    margin-right: auto;
-    background-color:darkslategray;
-    color:aquamarine;
-    text-align: center;
-    width: 100%;
-}
-
-.header h1{
-    font-size: 50px;
-}
-
-.title{
-    margin-left: auto;
-    margin-right: auto;
-    color:rgb(0, 0, 0);
-    text-align: left;
-}
-.title h1{
-    font-size: 30px;
-}
-
-.paragraph{
-    margin-left: auto;
-    margin-right: auto;
-    color:rgb(0, 0, 0);
-    text-align: left;
-}
-
-.paragraph p1{
-    font-size: 20px;
-    word-wrap: normal;
+.right-side{
+	background-color: #FCD116;
+	float: right;
+	width: 20%;
+	height: 100%;
+	padding: 20px;
 }
 
 .footer{
-    background-color: rgb(196, 196, 196);
-    color:rgb(0, 0, 0);
-    text-align: left;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
-.footer p1{
-    font-size: 15px;
+.navbar{
+	background-color: #F0F0F0;
+	height: 50px;
+
+	justify-content: center;
+	align-items: center;
+	
+	button{
+		height: 50px;
+	}
+
+	.images{
+		height: 50px;
+
+		float: right;
+
+		img{
+			width: auto;
+			height:50px;
+		}
+	}
 }

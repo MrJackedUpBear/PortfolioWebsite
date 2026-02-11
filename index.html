@@ -7,119 +7,44 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <button onclick="toggleNavBar()" class="button">≡</button>
-
-    <div class="navbar" style="display:none">
-        <a href="./About/index.html">About Me</a>
-        	<a href="./Blog/index.html">Blog</a>
-        	<a href="./Contact/index.html">Contact</a>
-        	<a href="./index.html">Homepage</a>
-        	<a href="./Projects/index.html">Projects</a>
-        	<a href="./Resume/index.html">Resume</a>
+    <div class="navbar">
+	<button type="button">Home</button>
+	<button type="button">Projects</button>
+	<button type="button">Resume</button>
+	
+	<div class="images">
+		<a href="https://github.com/MrJackedUpBear" target="_blank">
+			<button type="button"><img src="images/github.svg"></button>
+		</a>
+		<a href="https://www.linkedin.com/in/jonathan-taylor-961450392/" target="_blank">
+			<button type="button"><img src="images/linkedin.svg"></button>
+		</a>
+	</div>
     </div>
-    
+
     <div class="header">
-        <h1>Homepage</h1>
+        <h1>My Portfolio</h1>
     </div>
-
-    <script>
-        function toggleNavBar() {
-            var x = document.getElementsByClassName("navbar")[0];
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
 
     <body>
-        <div class="purpose">
-            <div class="title">
-                <h1>The Purpose of This Website:</h1>
-            </div>
-            <div class="paragraph">
-                <p1>This website is a home that I have created for my portfolio, resume, projects, contact information, about me information,
-                    and blog. I created this website to showcase my skills and experience in development and to provide a place
-                    where I can share my thoughts and ideas with the world. I hope you enjoy your visit to my website and that you find
-                    the information you are looking for. If you have any questions or comments, please feel free to contact me. Thank you
-                    for visiting my website!
-                </p1>
-            </div>
-        </div>
+	    <div class="left-side">
+	    	<h1>Hello, I am Jonathan Taylor!</h1>
+		<p1>
+			Hey, welcome to my site! I am a Senior in college pursuing a Bachelor's Degree in Computer Science at Pittsburg State University. I am 20 years old and have always been interested in
+			computers.
+		</p1>
+	    </div>
 
-        <div class="about">
-            <div class="title">
-                <h1>About Me!</h1>
-            </div>
-
-            <div class="paragraph">
-                <p1>
-                    Hey! Welcome to my site! My name is Jonathan Taylor, and I am a Senior in college pursuing a bachelor's degree in computer science at Pittsburg State University.
-                    I am 20 years old and have always been interested in computers. I have recently started my adventure in developing software. 
-                    I only have a few projects, which I will discuss more in my projects tab, but I have thouroughly enjoyed the time I have spent developing software.
-                    My main goal is to work with many different teams to learn more about development and meeting deadlines. 
-                    Outside of my work aspirations, I plan on working on different open source projects including some I will develop and others
-                    that I can assist with. If you want to know more. Just click <a href="https://portfolio.servername.win\About\">this</a> link for more information.
-                </p1>
-            </div>
-        </div>
-
-        <div class="skills">
-            <div class="title">
-                <h1>My Skills:</h1>
-            </div>
-
-            <div class="paragraph">
-                <p1>
-                    I will describe more of my skills within my resume <a href="https://portfolio.servername.win\Resume\">here</a>, but here is a brief overview of my skills:
-                    <ul>
-                        <li>Some programming languages I am comfortable with include:
-                            <ol>
-                                <li>Html</li>
-                                <li>Css</li>
-                                <li>Javascript</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                                <li>C</li>
-                            </ol>
-                        </li>
-                        <li>Some college courses I have taken include:
-                            <ol>
-                                <li>Database Management</li>
-                                <li>Systems Analysis and Design</li>
-                                <li>Advanced Programming</li>
-                            </ol>
-                        </li>
-                        <li>Core Attributes:
-                            <ol>
-                                <li>Internally Motivated</li>
-                                <li>Extremely Teachable</li>
-                                <li>Ensure Top Quality in Work</li>
-                            </ol>
-                        </li>
-                    </ul>
-                </p1>
-            </div>
-        </div>
-
-        <div class="projects">
-            <div class="title">
-                <h1>Projects:</h1>
-            </div>
-        
-            <div class="paragraph">
-                Below is a short list of the projects I have completed and am currently working on. For more information on my projects, follow <a href="http://portfolio.servername.win\Projects\">this</a> link.
-        
-                <ul>
-                    <li>Music Controller Application in Java</li>
-                    <li>Calculator App in C++</li>
-                    <li>Simple Portfolio Website in html and C## </li>
-                </ul>
-            </div>
-        </div>
+	    <div class="right-side">
+	    	<h1>Contact Info</h1>
+		<p1>
+			Phone: (620)-308-3903
+			Email: jwtaylor771@proton.me
+		</p1>
+	    </div>
     </body>
-
+	<br>
+	<br>
     <footer>
         <div class="footer">
             <p1>Thank you for visiting my website! I have provided the source code for this website and the projects I have worked on,
