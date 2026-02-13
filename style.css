@@ -9,7 +9,7 @@
 		float: left;
 		padding: 20px;
 
-		.h1{
+		h1{
 			text-align: center;
 		}
 	}
@@ -21,14 +21,24 @@
 		min-width: 35%;
 		max-width: 35%;
 
-		.h1{
+		h1{
 			text-align: center;
 		}
 	}
 }
 
 .projects{
-	display: flex;
+	display: block;
+
+	.DTT_Quiz{
+		display: flex;
+		width: 100%;
+	}
+
+	.Book_DB{
+		display: flex;
+		width: 100%
+	}
 
 	.left-side{
 		background-color: #CC0C2F;
@@ -39,8 +49,13 @@
 
 		color: white;
 
-		.h1{
+		h1{
 			text-align: center;
+		}
+
+		img{
+			max-height: 300px;
+			object-fit: contain;
 		}
 	}
 
@@ -53,7 +68,7 @@
 		overflow-wrap: break-text;
 		white-space: normal;
 
-		.h1{
+		h1{
 			text-align: center;
 		}
 	}
